@@ -43,7 +43,18 @@ body {
     --activeBG-2: #3374e4;
     --activeBG-3: #caccd0;
 }
-
+.heading{
+  color: red;
+}
+/* About Blog Component */
+.id{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  border-radius: 8px;
+  /* background: #000000; */
+}
 .code{
   width: auto;
   /* background-color: #fff; */
@@ -78,6 +89,19 @@ body {
   margin-top: 10px;
   padding: 10px;
 }
+.active{
+  /* background-color: var(--activeBG-1); */
+  color: #06b6d4;
+}
+.sidebarHeading{
+  color: red;
+  text-align: center;
+}
+.to_jump{
+	/* display: inline-block; */
+    padding-top: 30px;
+    text-decoration: none;
+  }
    /* Accordion */
 .accordion {
     cursor: pointer;

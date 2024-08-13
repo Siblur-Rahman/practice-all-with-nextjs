@@ -35,7 +35,7 @@ const Navbar = () => {
         router.push('/login')
     }
     return (
-        <nav className='bg-red-500 flex justify-between items-center fixed w-full h-10 px-3 z-10'>
+        <nav className='bg-red-500 flex justify-between items-center fixed top-0 w-full h-10 px-3 z-10'>
           <h6 className="text-4xl text-zinc-50">Next JS</h6>
           <ul className='flex justify-between items-center space-x-4'>
             {
