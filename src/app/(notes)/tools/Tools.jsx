@@ -1,6 +1,6 @@
 import PageSetup from "./PageSetup";
 import Images from "./Images"
-import Index from "./Index";
+import IndexPH from "./(indexPH)/IndexPH";
 import Theme from "./Theme";
 import GitGitHub from "./GitGitHub/GitGitHub";
 const Tools = () => {
@@ -9,7 +9,7 @@ const Tools = () => {
            <PageSetup/>
            <Theme/>
            <Images/>
-           <Index/>
+           <IndexPH/>
            <GitGitHub/>
         </>
     );

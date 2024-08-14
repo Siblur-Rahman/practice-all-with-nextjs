@@ -31,3 +31,8 @@ for (linkCount = 0; linkCount < link.length; linkCount++) {
   });
 }
 }
+
+export  const handleToggleDesplay =(e)=>{
+  // if(desplay==='hidden') {setDesplay('')}else{setDesplay('hidden')}
+  e.target.nextElementSibling.classList.toggle('hidden')
+}
